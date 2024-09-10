@@ -1,0 +1,97 @@
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    object-fit: fill;
+    z-index:-100;
+  }
+
+
+  .navbar {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    background-color: rgba(0, 0, 0, 0.5);;
+    min-height: 8vh;
+    position: absolute;
+    width: 100%;
+    padding: 0; 
+    margin: 0; 
+    
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center; 
+}
+
+.navbar li {
+    margin: 0 1rem; 
+}
+
+.navbar a {
+    text-decoration: none;
+    color: orange;
+    padding: 1vh;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 5vh;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color:white; 
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 32vh;
+    width: 40vh;
+    margin-bottom: 15px;
+    background-color: transparent;
+    position: absolute;
+    left: 15%;
+    top: 35%;
+    gap: 1vh;
+    box-sizing: border-box;
+}
+
+
+.contact .container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0.3%;
+    box-sizing: border-box;
+}
+
+
+.contact .container .img img {
+    width: 8vh;
+    height: 8vh;
+    margin-right: 10px;
+}
+
+
+.contact .container .name {
+    font-size: 2vh;
+    color: black;
+}
+
+
+.contact .container .name a {
+    text-decoration: none;
+    color: black;
+}
+

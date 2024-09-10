@@ -1,0 +1,49 @@
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    object-fit: fill;
+    z-index:-100;
+  }
+
+
+  .navbar {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    background-color: rgba(0, 0, 0, 0.5);;
+    height: 8vh;
+    position: absolute;
+    width: 100%;
+    padding: 0; 
+    margin: 0; 
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center; 
+}
+
+.navbar li {
+    margin: 0 1rem; 
+}
+
+.navbar a {
+    text-decoration: none;
+    color: orange;
+    padding: 1vh;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 5vh;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color:white; 
+}
+
