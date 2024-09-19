@@ -15,7 +15,6 @@ video {
     align-items: center;     
     background-color: rgba(0, 0, 0, 0.5);;
     height: 8vh;
-    position: absolute;
     width: 100%;
     padding: 0; 
     margin: 0; 
